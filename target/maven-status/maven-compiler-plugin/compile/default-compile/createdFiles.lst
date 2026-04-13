@@ -1,0 +1,8 @@
+com/taskmanager/repository/JsonTaskRepository$1.class
+com/taskmanager/Main.class
+com/taskmanager/service/TaskService.class
+com/taskmanager/repository/TaskRepository.class
+com/taskmanager/model/Task.class
+com/taskmanager/model/TaskStatus.class
+com/taskmanager/repository/JsonTaskRepository.class
+com/taskmanager/controller/TaskController.class

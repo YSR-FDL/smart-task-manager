@@ -1,0 +1,7 @@
+/home/YSR/Workspace/Projects/smart-task-manager/src/main/java/com/taskmanager/Main.java
+/home/YSR/Workspace/Projects/smart-task-manager/src/main/java/com/taskmanager/repository/TaskRepository.java
+/home/YSR/Workspace/Projects/smart-task-manager/src/main/java/com/taskmanager/repository/JsonTaskRepository.java
+/home/YSR/Workspace/Projects/smart-task-manager/src/main/java/com/taskmanager/service/TaskService.java
+/home/YSR/Workspace/Projects/smart-task-manager/src/main/java/com/taskmanager/controller/TaskController.java
+/home/YSR/Workspace/Projects/smart-task-manager/src/main/java/com/taskmanager/model/Task.java
+/home/YSR/Workspace/Projects/smart-task-manager/src/main/java/com/taskmanager/model/TaskStatus.java
