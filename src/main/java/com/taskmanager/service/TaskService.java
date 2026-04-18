@@ -23,23 +23,24 @@ public class TaskService {
     }
 
     public void deleteTask(String id) {
+        getTask(id); // Will throw if not found
         repository.delete(id);
     }
 
     public void updateTask(Task task) {
+        getTask(task.getId()); // Will throw if not found
         repository.update(task);
     }
 
     public Task getTask(String id) {
-        Optional<Task> task = repository.findById(id);
-        return task.orElse(null);
+        return repository.findById(id)
+                .orElseThrow(() -> new com.taskmanager.exception.TaskNotFoundException("Task not found with ID: " + id));
     }
 
     public void markAsDone(String id) {
-        repository.findById(id).ifPresent(task -> {
-            task.setStatus(TaskStatus.DONE);
-            repository.update(task);
-        });
+        Task task = getTask(id);
+        task.setStatus(TaskStatus.DONE);
+        repository.update(task);
     }
 
     public List<Task> getTasksSortedByPriority() {

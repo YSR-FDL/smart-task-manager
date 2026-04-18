@@ -1,148 +1,22 @@
 [ {
-  "id" : "task-01",
-  "title" : "Identify Target Industries",
-  "description" : "List 3-5 industries or specific roles (e.g., Marketing, Software Dev) to tailor the CV content.",
-  "deadline" : "2025-03-23T23:00",
-  "importance" : 3,
+  "id" : "e998dfce-ca64-4fdf-ba73-f7946e288ed2",
+  "title" : "Late task",
+  "description" : "Late task",
+  "deadline" : "2026-03-02T02:00",
+  "importance" : 4,
   "status" : "PENDING"
 }, {
-  "id" : "task-02",
-  "title" : "Gather Education Details",
-  "description" : "Collect GPA, relevant coursework, and expected graduation date.",
-  "deadline" : "2025-03-24T10:00",
-  "importance" : 3,
-  "status" : "PENDING"
-}, {
-  "id" : "task-03",
-  "title" : "Audit Extracurriculars",
-  "description" : "List clubs, sports, or volunteer work where you held responsibility.",
-  "deadline" : "2025-03-24T12:00",
+  "id" : "21ecd4f8-bb8c-4b01-b8dd-e4b02ad7fec6",
+  "title" : "near task",
+  "description" : "near task",
+  "deadline" : "2026-04-19T22:00",
   "importance" : 2,
   "status" : "PENDING"
 }, {
-  "id" : "task-04",
-  "title" : "List Technical Skills",
-  "description" : "Identify software, languages, or tools relevant to the internship (e.g., Python, Excel, Adobe Suite).",
-  "deadline" : "2025-03-24T14:00",
-  "importance" : 3,
-  "status" : "PENDING"
-}, {
-  "id" : "task-05",
-  "title" : "Select CV Template",
-  "description" : "Choose a clean, ATS-friendly professional layout.",
-  "deadline" : "2025-03-24T16:00",
+  "id" : "0c8a7e80-f950-439e-84c2-31a3b28880fa",
+  "title" : "Far task",
+  "description" : "far task",
+  "deadline" : "2026-05-22T11:00",
   "importance" : 2,
-  "status" : "PENDING"
-}, {
-  "id" : "task-06",
-  "title" : "Write Contact Information",
-  "description" : "Ensure email, LinkedIn URL, and phone number are professional and correct.",
-  "deadline" : "2025-03-24T17:00",
-  "importance" : 3,
-  "status" : "PENDING"
-}, {
-  "id" : "task-07",
-  "title" : "Draft Professional Summary",
-  "description" : "Write a 2-3 sentence hook focusing on your eagerness to learn and your core strengths.",
-  "deadline" : "2025-03-24T19:00",
-  "importance" : 2,
-  "status" : "PENDING"
-}, {
-  "id" : "task-08",
-  "title" : "Document Academic Projects",
-  "description" : "Detail 2-3 significant projects, focusing on your specific contribution and results.",
-  "deadline" : "2025-03-25T10:00",
-  "importance" : 3,
-  "status" : "PENDING"
-}, {
-  "id" : "task-09",
-  "title" : "Quantify Achievements",
-  "description" : "Add numbers to your experience (e.g., 'Increased club membership by 20%').",
-  "deadline" : "2025-03-25T12:00",
-  "importance" : 3,
-  "status" : "PENDING"
-}, {
-  "id" : "task-10",
-  "title" : "Identify Soft Skills",
-  "description" : "Select keywords like 'Leadership', 'Communication', or 'Problem Solving'.",
-  "deadline" : "2025-03-25T14:00",
-  "importance" : 2,
-  "status" : "PENDING"
-}, {
-  "id" : "task-11",
-  "title" : "Check Verb Tense Consistency",
-  "description" : "Ensure past roles use past tense and current roles use present tense.",
-  "deadline" : "2025-03-25T16:00",
-  "importance" : 2,
-  "status" : "PENDING"
-}, {
-  "id" : "task-12",
-  "title" : "Keyword Optimization",
-  "description" : "Scan job descriptions for keywords and integrate them naturally into the CV.",
-  "deadline" : "2025-03-25T18:00",
-  "importance" : 3,
-  "status" : "PENDING"
-}, {
-  "id" : "task-13",
-  "title" : "Format White Space",
-  "description" : "Adjust margins and line spacing to ensure it is easy to read.",
-  "deadline" : "2025-03-26T09:00",
-  "importance" : 2,
-  "status" : "PENDING"
-}, {
-  "id" : "task-14",
-  "title" : "Review for Typos",
-  "description" : "Perform a manual read-through and use a spellchecker.",
-  "deadline" : "2025-03-26T10:00",
-  "importance" : 3,
-  "status" : "PENDING"
-}, {
-  "id" : "task-15",
-  "title" : "Peer Review",
-  "description" : "Have a friend or mentor look over the draft for clarity.",
-  "deadline" : "2025-03-26T14:00",
-  "importance" : 2,
-  "status" : "PENDING"
-}, {
-  "id" : "task-16",
-  "title" : "Hyperlink Portfolio/LinkedIn",
-  "description" : "Ensure all digital links are clickable and lead to the correct pages.",
-  "deadline" : "2025-03-26T16:00",
-  "importance" : 2,
-  "status" : "PENDING"
-}, {
-  "id" : "task-17",
-  "title" : "Save as PDF",
-  "description" : "Export the document as a PDF titled 'Firstname_Lastname_CV.pdf'.",
-  "deadline" : "2025-03-26T17:00",
-  "importance" : 3,
-  "status" : "PENDING"
-}, {
-  "id" : "task-18",
-  "title" : "Draft Cover Letter Template",
-  "description" : "Create a base cover letter that can be quickly customized for each application.",
-  "deadline" : "2025-03-27T10:00",
-  "importance" : 3,
-  "status" : "PENDING"
-}, {
-  "id" : "task-19",
-  "title" : "Create Application Tracker",
-  "description" : "Set up a spreadsheet to track company names, dates applied, and follow-ups.",
-  "deadline" : "2025-03-27T12:00",
-  "importance" : 2,
-  "status" : "PENDING"
-}, {
-  "id" : "task-20",
-  "title" : "Submit First Application",
-  "description" : "Send off the CV for your top-choice summer internship.",
-  "deadline" : "2025-03-27T16:00",
-  "importance" : 3,
-  "status" : "PENDING"
-}, {
-  "id" : "ea6abf2b-6ebb-4c59-b08f-e5205e9e780f",
-  "title" : "gym",
-  "description" : "go to the gym",
-  "deadline" : "2026-03-21T07:00",
-  "importance" : 1,
   "status" : "PENDING"
 } ]

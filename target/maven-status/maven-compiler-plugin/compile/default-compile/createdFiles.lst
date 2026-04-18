@@ -6,3 +6,4 @@ com/taskmanager/model/Task.class
 com/taskmanager/model/TaskStatus.class
 com/taskmanager/repository/JsonTaskRepository.class
 com/taskmanager/controller/TaskController.class
+com/taskmanager/exception/TaskNotFoundException.class

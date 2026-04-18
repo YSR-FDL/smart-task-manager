@@ -1,6 +1,6 @@
 # Smart Task Manager
 
-A Java-based Command Line Interface (CLI) application that acts as a Smart Task Manager. 
+Command Line Interface (CLI) application that acts as a Smart Task Manager. 
 Its distinctive feature is the **Priority Engine**, which mathematically calculates task priority rather than relying on manual input.
 
 ## Features
