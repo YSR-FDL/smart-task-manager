@@ -1,4 +1,0 @@
-com/taskmanager/repository/JdbcTaskRepositoryTest.class
-com/taskmanager/service/TaskServiceTest$MockTaskRepository.class
-com/taskmanager/service/TaskServiceTest.class
-com/taskmanager/model/TaskTest.class
