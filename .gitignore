@@ -41,3 +41,29 @@ buildNumber.properties
 .classpath
 .project
 .settings/
+
+# ==========================================
+# CUSTOM ADDITIONS FOR SMART TASK MANAGER
+# ==========================================
+
+# Local Databases & Data Files (Crucial for SQLite/JSON)
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-shm
+*.db-wal
+/data/tasks.json
+/data/tasks.db
+
+# OS Generated Files (Prevents OS conflicts)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log Files
+*.log
