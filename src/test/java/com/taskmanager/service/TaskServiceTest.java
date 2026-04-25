@@ -82,8 +82,13 @@ class TaskServiceTest {
 
         @Override
         public void update(Task task) {
+            Task existing = findById(task.getId()).orElseThrow(() -> new TaskNotFoundException("Not found"));
+            if (existing.getVersion() != task.getVersion()) {
+                throw new com.taskmanager.exception.OptimisticLockException("Lock failed");
+            }
+            task.setVersion(task.getVersion() + 1);
             delete(task.getId());
-            save(task);
+            tasks.add(task);
         }
     }
 }

@@ -16,6 +16,7 @@ public class Task {
     
     private int importance; // 1 to 5
     private TaskStatus status;
+    private int version = 1;
 
     public Task() {
         // default constructor for Jackson
@@ -42,6 +43,8 @@ public class Task {
     public void setImportance(int importance) { this.importance = Math.max(1, Math.min(5, importance)); }
     public TaskStatus getStatus() { return status; }
     public void setStatus(TaskStatus status) { this.status = status; }
+    public int getVersion() { return version; }
+    public void setVersion(int version) { this.version = version; }
 
     @JsonIgnore
     public int getPriority() {

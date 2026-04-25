@@ -72,11 +72,17 @@ public class JsonTaskRepository implements TaskRepository {
     @Override
     public void update(Task task) {
         for (int i = 0; i < tasks.size(); i++) {
-            if (tasks.get(i).getId().equals(task.getId())) {
+            Task existingTask = tasks.get(i);
+            if (existingTask.getId().equals(task.getId())) {
+                if (existingTask.getVersion() != task.getVersion()) {
+                    throw new com.taskmanager.exception.OptimisticLockException("Version mismatch for task " + task.getId());
+                }
+                task.setVersion(task.getVersion() + 1);
                 tasks.set(i, task);
                 saveTasks();
                 return;
             }
         }
+        throw new com.taskmanager.exception.TaskNotFoundException("Task not found: " + task.getId());
     }
 }

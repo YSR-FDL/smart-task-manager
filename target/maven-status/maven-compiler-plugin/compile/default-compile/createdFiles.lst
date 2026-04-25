@@ -1,3 +1,5 @@
+com/taskmanager/exception/OptimisticLockException.class
+com/taskmanager/repository/JdbcTaskRepository.class
 com/taskmanager/repository/JsonTaskRepository$1.class
 com/taskmanager/Main.class
 com/taskmanager/service/TaskService.class
